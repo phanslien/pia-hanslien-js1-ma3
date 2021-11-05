@@ -26,7 +26,6 @@ async function getGames() {
     catch (error) {
         console.log("An error has occurred");
         resultGames.innerHTML = "An error has occurred";
-
     }
 }
 
